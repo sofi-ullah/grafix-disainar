@@ -1,0 +1,173 @@
+/*------
+header section steylis
+----*/
+header{
+    background-color: aliceblue;
+    
+}
+.tow-said{
+    display: grid;
+    grid-template-columns: repeat(2,1fr );
+   
+}
+.grafix-taitel{
+    padding-left: 50px;
+}
+
+.grafix-list,
+    ul, li,a{
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    padding: 6px;
+    color: #0e0e0e;
+}
+ ul, li{
+    list-style: none;
+  
+}
+
+
+/*  main section stylis */
+.detels{
+    padding-left: 50px;
+    padding-top:60px
+}
+.detels h1{
+    
+font-size: 50px;
+margin-bottom:-10px  
+
+}
+.detels p{
+font-size:18px;
+ line-height:24px;
+ 
+}
+.detels button{
+ background-color:#e53720;
+ border:1px solid;
+ border-radius:50px;
+ font-size:20px;
+ padding:10px;
+ color:aliceblue;
+}
+.detels button i{
+    padding-left: 7px;
+}
+
+.img{
+    height: 440px;
+    width: 415px;                                                                
+    
+}
+/*---logos styles ---*/
+.logos {
+    display: flex;
+    gap: 40px;
+    padding: 25px 120px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+/* -------------------
+      main bolog ar populer collection ar  styles 
+---------------*/
+.siro-name {
+    text-align: center;
+    padding: 50px 0 0 0;
+    margin-bottom: -10px;
+}
+.collection-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 40px 120px ;
+    
+}
+.list {
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+    box-shadow: 1px 7px 7px 7px rgb(175 170 170 / 51%);
+}
+img{
+    max-width: 100%;
+}
+.reit {
+    color: #524f4f;
+    font-size: 25px;
+    margin: -5px 0;
+}
+.rekking i{
+    color: #f45e0e;
+}
+.ditels{
+    color: #5e5c5c;
+    width: 120px;
+    margin-top: -10px;
+}
+.blew{
+    color: #5e5c5c;
+    margin-top: -10px;
+}
+.and-ditels{
+    color: #f80707;
+    text-align: right;
+    padding-right: 120px;
+}
+.and-ditels i{
+    padding-left: 7px;
+}
+
+/*-----------
+joind ar last stylis
+--------------*/
+.joind-picture {
+    padding: 60px 10px 20px 120px;
+    width: 380px;
+}
+.joind-ditels {
+    padding: 70px 60px 30px 10px;
+}
+.joind-ditels h1{
+    font-size: 35px;
+}
+.joind-ditels p {
+    color: #565451;
+    width: 420px;
+}
+.joind-ditels button {
+    background-color: #ef0555;
+    border: 1px solid;
+    font-size: 20px;
+    padding: 10px;
+    color: aliceblue;
+}
+.joind-ditels button i{
+    padding-left: 7px;
+}
+
+/*-----------
+footer syelis
+-------*/
+footer{
+    background-color: #0e0e0e;
+    color: #f7f4f4;
+    text-align: center;
+
+}
+footer h1 {
+    padding-top: 30px;
+    font-size: 25px;
+}
+footer p {
+    color: aliceblue;
+}
+footer .link-id {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 60px;
+}
