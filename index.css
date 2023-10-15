@@ -61,6 +61,7 @@ font-size:18px;
 /*---logos styles ---*/
 .logos {
     display: grid;
+    grid-template-columns: repeat(7,1fr);
     gap: 40px;
     padding: 25px 120px;
     border-top: 1px solid;
