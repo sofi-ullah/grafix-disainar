@@ -1,10 +1,7 @@
 /*------
 header section steylis
 ----*/
-header{
-    background-color: aliceblue;
-    
-}
+
 .tow-said{
     display: grid;
     grid-template-columns: repeat(2,1fr );
@@ -31,11 +28,11 @@ header{
 /*  main section stylis */
 .detels{
     padding-left: 50px;
-    padding-top:60px
+    padding-top:40px
 }
 .detels h1{
     
-font-size: 50px;
+font-size: 40px;
 margin-bottom:-10px  
 
 }
@@ -63,7 +60,7 @@ font-size:18px;
 }
 /*---logos styles ---*/
 .logos {
-    display: flex;
+    display: grid;
     gap: 40px;
     padding: 25px 120px;
     border-top: 1px solid;
@@ -76,7 +73,7 @@ font-size:18px;
 .siro-name {
     text-align: center;
     padding: 50px 0 0 0;
-    margin-bottom: -10px;
+    margin-bottom: 10px;
 }
 .collection-list{
     display: grid;
@@ -171,3 +168,41 @@ footer .link-id {
     justify-content: center;
     padding-bottom: 60px;
 }
+
+@media screen and (max-width:570px){
+    .tow-said{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .grafix-taitel{
+        padding-left: 20px;
+    }
+    .grafix-list{
+        gap: 5px;
+    }
+    .detels{
+        text-align: center;
+        width: 415;
+        padding: 20px;
+    }
+    .collection-list{
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px;
+    }
+    .list{
+        max-width: 100%;
+    }
+    .logos{
+        grid-template-columns: repeat(4,2fr);
+        gap: 20px;
+        padding: 30px;
+        
+    }
+    .joind-picture{
+        padding: 20px;
+        max-width: 100%;
+    }
+    .joind-ditels{
+        text-align: center;
+    }
+} 
