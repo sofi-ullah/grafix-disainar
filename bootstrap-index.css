@@ -1,0 +1,35 @@
+.nav-a-link{
+    list-style: none !important;
+}
+.fa-solid-ster{
+    color: rgb(235, 214, 31);
+}
+.see-more{
+    text-decoration: none;
+    color: #e0365b;
+}
+.soscail-link{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    
+}
+@media only screen and (max-width:576px) {
+
+    .product{
+        text-align: center;
+
+    }
+    .product-taitel {
+        font-size: 35px !important;
+        font-weight: 750 !important;
+    }
+    .product p{
+        line-height: 35px !important;
+        font-size: 24px !important;
+    }
+    .product button{
+        margin-top: 40px !important;
+    }
+    
+}
